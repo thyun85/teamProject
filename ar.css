@@ -1,0 +1,79 @@
+@media(min-width: 600px) and (max-width: 2960px){
+ body{
+  width: 100%;
+  margin: 0 auto;
+ }
+ #con h4{
+ 	margin: 0px;
+	margin-top: 5px;
+	padding: 0px;
+	font-size: 40px;
+ }
+ #con{
+ 	font-size: 20px;
+ }
+}
+
+
+table,td,th{
+		border: 1px solid black;
+		text-align: center;
+		font-weight: bold;
+		font-size: 15px;
+	}
+	th,tr{
+		background-color: #c1cdcd;
+	}
+header{
+	text-align: center;
+}
+#gun{
+	width:263px
+}
+#num1{
+	background-color: gray;
+}
+.m16a42{
+	padding: 6px;
+}
+
+.weapon{
+	float: left;
+	margin: 10px;
+
+}
+.side img
+{
+	width: 50px;
+}
+.side table{
+	margin-top: 18px;
+}
+#con{
+	margin: 20px 20px;
+	padding: 10px;
+	border: 1px solid black;
+	width: 100px;
+}
+#con h4{
+	margin: 0px;
+	margin-top: 5px;
+	padding: 0px;
+	font-size: 20px;
+}
+#mini{
+	margin-top:30px;
+}
+.weapon1895{
+	float: left;
+	margin: 10px;
+}
+.w2762{
+	clear: both;
+}
+.w12게이지{
+	clear: both;
+}
+.amm img{
+	width: 150px;
+}

@@ -1,0 +1,40 @@
+a{
+	font-size: 15px;
+	font-family: Oswald;
+}
+#mySidebar{
+	background-color: black;
+}
+
+
+/*Sidebar/menu css입니다.*/
+#mySidebar{
+	width: 250px;
+	top: 30px;
+	z-index: 3;
+}
+
+#mySidebar div#mySidebarDiv{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8px; 
+}
+/*사이드바 이미지*/
+#mySidebar img#mainImg{
+	width: 70%;
+	height: 60%;
+	margin-left: 24px; 
+}
+
+#menuText{
+	font-weight: bold;
+}
+
+/*브라우저가 줄어들면서 nav가 사라지면 margin-left를 0으로바꿔야함*/
+.testClass{
+	position: relative;
+	border:1px solid red;
+	margin-left: 250px;
+	width: 100;
+	height: 800px;
+}
