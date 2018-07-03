@@ -1,0 +1,71 @@
+*{
+	margin: 0; padding: 0;
+	font-family: Oswald;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+.boardArticle{
+	color: white;
+	height: 100%;
+	background-color: #dcab33;
+}
+
+#boardList{
+	min-height: 300px;
+	height: 100%;
+	background-color: #dcab33;
+}
+
+/* 글목록 */
+
+/*#boardList table {width:720px}*/
+
+.readHide{padding: 10px;}
+
+table{
+	text-align: center;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#boardList th {padding:5px 0;border-top:2px solid #666;border-bottom:1px solid #666}
+#boardList td {padding:8px 0;border-bottom:1px solid #666}
+
+#boardList .no {width:60px;text-align:center}
+#boardList .title {}
+#boardList .author {width:100px;text-align:center}
+#boardList .date {width:100px;text-align:center}
+#boardList .hit {width:40px;text-align:center}
+
+#boardList .btnSet {text-align:right}
+
+/* 글쓰기 */
+
+#boardWrite table {width:720px}
+#boardWrite th {width:100px;padding:5px;text-align:right;vertical-align: top}
+#boardWrite td {width:620px;padding:5px}
+
+#boardWrite #bID {width:180px}
+#boardWrite #bPassword {width:180px}
+#boardWrite #bTitle {width:400px}
+#boardWrite #bContent {width:550px;/*height:300px*/}
+
+#boardWrite .btnSet {text-align:center}
+
+/* 글읽기 */
+
+#boardView #boardTitle {border-bottom: 2px solid #333}
+#boardView #boardInfo {margin: 10px 0}
+#boardView #boardContent {margin: 10px 0}
+#boardView .btnSet {
+	text-align:right;
+	padding: 5px;
+}
+.paging{height: 30px;}
+
+.pagingUl{height: 50px;}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>BattleGround</title>
+	<meta name="viewprot" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="https://malsup.github.com/jquery.cycle2.js"></script>
+
+	<script type="text/javascript" src="main.js"></script>
+
+	<!-- 반응형 웹 적용 -->
+	<!-- 모바일 -->
+	<link rel="stylesheet" type="text/css" href="main990px.css" media="(max-width:990px)">
+
+	<!-- 테블릿, 테스크탑 -->
+	<link rel="stylesheet" type="text/css" href="main1200px.css" media="(min-width:990px)">
+
+</head>
+<body>
+
+	<div id="page">
+		<header>
+			<div class="header">
+				<a href="main.html"><img src="images/logo.png" id="mainLogoImg" style="width: 40%"></a>
+			</div>
+		</header>
+
+		<nav id="sidebar">
+			<div id="menu1200">
+				<div class="guide">
+					<div><a href="#" id="menuGuide">GUIDE</a></div>
+					<ul class="listGuide">
+						<li><a href="#" id="guide_main">기본플레이방법</a></li>
+						<li><a href="#" id="guide_mode">모드</a></li>
+						<li><a href="#" id="guide_airplane">비행기</a></li>
+						<li><a href="#" id="guide_magneticField">자기장</a></li>
+						<li><a href="#" id="guide_redZone">레드존</a></li>
+						<li><a href="#" id="guide_supply">보급</a></li>
+						<li><a href="#" id="guide_parkur">파쿠르(지형지물넘기)</a></li>
+						<li><a href="#" id="guide_soundPlay">사운드플레이</a></li>
+						<li><a href="#" id="guide_fallDamage">낙하피해</a></li>
+						<li><a href="#" id="guide_replay">리플레이</a></li>
+					</ul>
+			    </div>
+
+				<div class="weapons">
+			    	<div><a href="#" id="menuWeapons">WEAPONS</a></div>
+			    	<ul class="listWeapons">
+			    		<li><a href="#" id="ar">돌격소총</a></li>
+			    		<li><a href="#" id="dmr">지정사수소총</a></li>
+			    		<li><a href="#" id="sr">저격소총</a></li>
+			    		<li><a href="#" id="smg">기관단총</a></li>
+			    		<li><a href="#" id="lmg">경기관총</a></li>
+			    		<li><a href="#" id="sg">산탄총</a></li>
+			    		<li><a href="#" id="sw">보조무기</a></li>
+			    		<li><a href="#" id="amm">탄약</a></li>
+			    	</ul>
+				</div>
+
+				<div class="items">
+					<div><a href="#" id="menuItems">ITEMS</a></div>
+					<ul class="listItems">
+						<li><a href="#" id="item1">장비류</a></li>
+						<li><a href="#" id="item2">치료제</a></li>
+						<li><a href="#" id="item3">부스터</a></li>
+						<li><a href="#" id="item4">수류탄</a></li>
+						<li><a href="#" id="item5">연료통</a></li>
+					</ul>
+				</div>
+
+			    <div class="maps">
+			    	<div><a href="#" id="menuMaps">Maps</a></div>
+			    	<ul class="listMaps">
+			    		<li><a href="#" id="map1">에란겔(Erangel)</a></li>
+			    		<li><a href="#" id="map2">미라마(Miramar)</a></li>
+			    	</ul>
+			    </div>
+
+			    <div class="freeBoard">
+			    	<div><a href="#"  id="menuFreeboard">자유게시판</a></div>
+			    </div>
+
+			    <div class="contact">
+			    	<div><a href="#" id="menuContact">Contact Us</a></div>
+			    </div>
+			</div>
+
+			<div id="menu915">
+				<div class="guide_mobile">
+					<div><a href="#" id="menuGuide_mobile">GUIDE</a></div>
+					<ul class="listGuide_mobile">
+						<li><a href="#" id="guide_main_mobile">기본플레이방법</a></li>
+						<li><a href="#" id="guide_mode_mobile">모드</a></li>
+						<li><a href="#" id="guide_airplane_mobile">비행기</a></li>
+						<li><a href="#" id="guide_magneticField_mobile">자기장</a></li>
+						<li><a href="#" id="guide_redZone_mobile">레드존</a></li>
+						<li><a href="#" id="guide_supply_mobile">보급</a></li>
+						<li><a href="#" id="guide_parkur_mobile">파쿠르(지형지물넘기)</a></li>
+						<li><a href="#" id="guide_soundPlay_mobile">사운드플레이</a></li>
+						<li><a href="#" id="guide_fallDamage_mobile">낙하피해</a></li>
+						<li><a href="#" id="guide_replay_mobile">리플레이</a></li>
+					</ul>
+			    </div>
+
+			    <div class="weapons_mobile">
+			    	<div><a href="#" id="menuWeapons_mobile">WEAPONS</a></div>
+			    	<ul class="listWeapons_mobile">
+			    		<li><a href="#" id="ar_mobile">돌격소총</a></li>
+			    		<li><a href="#" id="dmr_mobile">지정사수소총</a></li>
+			    		<li><a href="#" id="sr_mobile">저격소총</a></li>
+			    		<li><a href="#" id="smg_mobile">기관단총</a></li>
+			    		<li><a href="#" id="lmg_mobile">경기관총</a></li>
+			    		<li><a href="#" id="sg_mobile">산탄총</a></li>
+			    		<li><a href="#" id="sw_mobile">보조무기</a></li>
+			    		<li><a href="#" id="amm_mobile">탄약</a></li>
+			    	</ul>
+				</div>
+
+			    <div class="items_mobile">
+					<div><a href="#" id="menuItems_mobile">ITEMS</a></div>
+					<ul class="listItems_mobile">
+						<li><a href="#" id="item1_mobile">장비류</a></li>
+						<li><a href="#" id="item2_mobile">치료제</a></li>
+						<li><a href="#" id="item3_mobile">부스터</a></li>
+						<li><a href="#" id="item4_mobile">수류탄</a></li>
+						<li><a href="#" id="item5_mobile">연료통</a></li>
+					</ul>
+				</div>
+
+			    <div class="maps_mobile">
+			    	<div><a href="#" id="menuMaps_mobile">Maps</a></div>
+			    	<ul class="listMaps_mobile">
+			    		<li><a href="#" id="map1_mobile">에란겔(Erangel)</a></li>
+			    		<li><a href="#" id="map2_mobile">미라마(Miramar)</a></li>
+			    	</ul>
+			    </div>
+
+			    <div class="freeBoard_mobile">
+			    	<div><a href="#"  id="menuFreeboard_mobile">자유게시판</a></div>
+			    </div>
+
+			    <div class="contact_mobile">
+			    	<div><a href="#" id="menuContact_mobile">Contact</a></div>
+			    </div>
+
+			</div>
+		</nav>
+
+		<article>
+			<div id="articlePage">
+				<div class="cycle-slideshow">
+					<img src="./images/main_img01.png">
+					<img src="./images/main_img02.jpg">
+					<img src="./images/main_img03.jpg">
+					<img src="./images/main_img04.png">
+				</div>
+			</div>
+		</article>
+		
+		<footer>
+			<div>Copyright &copy; Kakao Corp. All rights reserved.</div>
+		</footer>
+	</div>
+
+	
+
+</body>
+</html>

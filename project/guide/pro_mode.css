@@ -1,0 +1,199 @@
+a{
+	font-size: 15px;
+	font-family: Oswald;
+}
+#mySidebar{
+	background-color: black;
+}
+
+body{
+	background-color: #f3f3f3;
+}
+
+section{
+	padding: 10px;
+}
+
+p{color: white;}
+h3{color: white;}
+h4{color: white;}
+img{width: 70%;}
+
+/*브라우저가 줄어들면서 nav가 사라지면 margin-left를 0으로바꿔야함*/
+.testClass{
+	position: relative;
+	width: 100%;
+	z-index: 1;
+	padding: 10px;
+}
+
+#testH2{
+	font-style: italic;
+	font-weight: bold;
+	color: darkgray;
+}
+
+/*display 테이블*/
+
+.allMode{
+	display: table;
+	padding: 10px;
+	text-align: center;	
+	width: 100%;
+}
+/*솔로모드 설명*/
+.mode1{
+	display: table;
+	float: left;
+	width: 250px;
+	height: 200px;
+	margin:10px 5px;
+}
+
+.mode1 img{
+	display: table-cell;
+	width: 100%;
+}
+
+.mode1 h4{
+	display: inline-block;
+	font-weight: bold;
+	text-decoration: underline;
+	text-decoration-color: red;
+	text-decoration-style: wavy;
+}
+/*듀오모드 설명*/
+.mode2{
+	display: table;
+	float: left;
+	width: 250px;
+	height: 200px;
+	margin:10px 5px;
+}
+
+.mode2 h3{
+	font-weight: bold;
+	margin-top: 0px;
+}
+
+.mode2 img{
+	display: table-cell;
+	width: 100%;
+}
+
+.mode2 h4{
+	display: inline-block;
+	font-weight: bold;
+	text-decoration: underline;
+	text-decoration-color: red;
+	text-decoration-style: wavy;
+}
+/*스쿼드모드 설명*/
+.mode3{
+	display: table;
+	float: left;
+	width: 250px;
+	height: 200px;
+	margin:10px 5px;
+}
+
+.mode3 h3{
+	font-weight: bold;
+	margin-top: 0px;
+}
+
+.mode3 img{
+	display: table-cell;
+	width: 100%;
+}
+
+.mode3 h4{
+	display: inline-block;
+	font-weight: bold;
+	text-decoration: underline;
+	text-decoration-color: red;
+	text-decoration-style: wavy;
+}
+/*커스텀모드 설명*/
+.mode4{
+	display: table;
+	float: left;
+	width: 250px;
+	height: 200px;
+	margin:10px 5px;
+}
+
+.mode4 h3{
+	font-weight: bold;
+	margin-top: 0px;
+}
+
+.mode4 img{
+	display: table-cell;
+	width: 100%;
+}
+
+.mode4 h4{
+	display: inline-block;
+	font-weight: bold;
+	text-decoration: underline;
+	text-decoration-color: red;
+	text-decoration-style: wavy;
+}
+
+.mode4 a{
+	color: blue;
+	text-decoration: none;
+}
+/*좀비모드*/
+.mode5{
+	display: table;
+	float: left;
+	width: 250px;
+	height: 200px;
+	margin:10px 5px;
+}
+
+.mode5 h3{
+	font-weight: bold;
+	margin-top: 0px;
+}
+
+.mode5 img{
+	display: table-cell;
+	width: 100%;
+}
+
+.mode5 h4{
+	display: inline-block;
+	font-weight: bold;
+	text-decoration: underline;
+	text-decoration-color: red;
+	text-decoration-style: wavy;
+}
+/*워모드*/
+.mode6{
+	display: table;
+	float: left;
+	width: 250px;
+	height: 200px;
+	margin:10px 5px;
+}
+
+.mode6 h3{
+	font-weight: bold;
+	margin-top: 0px;
+}
+
+.mode6 img{
+	display: table-cell;
+	width: 100%;
+}
+
+.mode6 h4{
+	display: inline-block;
+	font-weight: bold;
+	text-decoration: underline;
+	text-decoration-color: red;
+	text-decoration-style: wavy;
+}

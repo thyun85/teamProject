@@ -1,0 +1,282 @@
+table,
+td,
+th {
+    border: 1px solid white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+th,
+tr {
+    background-color: #c1cdcd;
+}
+
+#gun {
+    width: 263px
+}
+#gun1{
+    color: black;
+}
+
+#num1 {
+    background-color: gray;
+}
+
+
+.weapon {
+    float: left;
+    margin: 10px;
+}
+
+.side img {
+    width: 50px;
+}
+
+.side table {
+    margin-top: 18px;
+}
+
+#con {
+    margin: 20px 20px;
+    padding: 10px;
+    border: 1px solid white;
+    width: 100px;
+    color: white;
+}
+
+#con h4 {
+    margin: 0px;
+    margin-top: 5px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+#mini {
+    margin-top: 30px;
+}
+
+.weapon1895 {
+    float: left;
+    margin: 10px;
+}
+
+.w2762 {
+    clear: both;
+}
+
+.w12게이지 {
+    clear: both;
+}
+
+.amm img {
+    width: 150px;
+}
+
+.csstext {
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.final {
+    color: white;
+    margin-left: 0;
+    width: 100%;
+}
+
+.title1{
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+.sidedmr img {
+        width: 50px;
+    }
+.title2{
+    margin-top: 50px;
+    color: white;
+}
+.csstext2{
+      margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+.title12{
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding-top: 250px;
+}
+.title13{
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding-top: 150px;
+}
+.title12 h1{
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding-top: 150px;
+}
+.title13 h1{
+    padding-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+@media(max-width: 1007px) {
+    body {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .side img {
+        width: 50px;
+    }
+    .side {
+        clear: both;
+        width: 300px;
+        margin-left: 125px;
+    }
+    #con {
+        color: white;
+    }
+    .title1 h1,
+    .title1 h2,
+    .m16a42,
+    .M416,
+    .scarl,
+    .akm,
+    .groza {
+        color: white;
+    }
+    .weapon {
+        float: left;
+        margin-left: 155px;
+    }
+}
+
+
+
+@media(max-width: 980px) {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: Oswald;
+    }
+
+    body {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .side img {
+        width: 150px;
+    }
+
+    .side {
+        clear: both;
+        width: 700px;
+        margin: 0px;
+    }
+
+    #con {
+        border: 3px solid white;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        text-align: center;
+        width: 300px;
+    }
+
+    .title1,
+    .title2 {
+        font-size: 2em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .title1 h1,
+    .title1 h2,
+    .title2 h1,
+    .title2 h2,
+    {
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+    }
+
+    .weapon {
+        float: left;
+        margin-left: 0px;
+    }
+
+    #con h2 {
+        font-size: 5em;
+    }
+
+    #con h4 {
+        font-size: 4em;
+    }
+
+    #con #wg {
+        font-size: 3em;
+    }
+
+    table,
+    td,
+    th {
+        border: 1px solid white;
+        text-align: center;
+        font-weight: bold;
+        font-size: 2em;
+    }
+
+    .csstext {
+        font-size: 3em;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+    }
+
+    .final {
+        font-size: 3em;
+        color: white;
+        margin-left: 0;
+        width: 970px;
+    }
+
+    .sidedmr {
+        clear: both;
+        width: 300px;
+        margin: 0px;
+    }
+
+    .sidedmr img {
+        width: 110px;
+    }
+
+    .weapon1895 {
+        font-size: 1em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #gun1 {
+        width: 980px;
+    }
+
+    .weapon2 table,
+    td,
+    th {
+        font-size: 1em;
+    }
+
+    .csstext2 {
+        font-size: 1.5em;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+    }
+}

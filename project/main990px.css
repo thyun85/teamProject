@@ -1,0 +1,103 @@
+*{
+	margin: 0; padding: 0;
+	font-family: Oswald;
+}
+
+a{text-decoration: none;}
+
+ul{list-style: none;}
+
+#menu1200{
+	display: none;
+}
+
+#menu915{
+	display: block;
+}
+
+#page{
+	width: 100%;
+	min-height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black;
+}
+
+.header{
+	background-color: black;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media screen and (max-width: 990px) {
+	.header{
+		text-align:center!important;
+		width:100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+nav{
+	border-top: 1px solid #223344;
+}
+
+nav #menu915 div, nav #menu915 div, nav #menu915 div, nav #menu915 div, nav #menu915 div, nav #menu915 div{
+	text-align: center;
+	line-height: 3em;
+	border-bottom: 1px solid #223344;
+}
+
+#menuGuide_mobile, #menuWeapons_mobile, #menuItems_mobile, #menuMaps_mobile, #menuFreeboard_mobile, #menuContact_mobile{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+li a{
+	display: block;
+	color: gray;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+
+.listGuide li:hover, .listWeapons li:hover, .listItems li:hover, .listMaps li:hover, .listGuide_mobile li:hover, .listWeapons_mobile li:hover, .listItems_mobile li:hover, .listMaps_mobile li:hover{
+	background-color: #dcab33;
+}
+
+li a:hover{
+	color: white;
+}
+
+.listGuide_mobile, .listWeapons_mobile, .listItems_mobile, .listMaps_mobile{
+	display: none;
+}
+
+article{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
+
+#articlePage{
+	text-align: center;
+	width: 100%; /*height: 500px;*/
+}
+
+.cycle-slideshow img{
+	text-align: center;
+	width: 100%; height: 100%;
+}
+
+#articlePage iframe{
+	width: 100%;
+}
+
+footer{
+	width: 100%;height: 90px;
+	background-color: gray;
+	text-align: center;
+	padding-top: 40px;
+}

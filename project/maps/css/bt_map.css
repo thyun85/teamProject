@@ -1,0 +1,326 @@
+*{  padding: 0; margin: 0; overflow:auto}
+
+#page{
+
+
+	margin: 0 auto;
+
+	/*overflow: scroll;*/
+
+
+}
+
+nav{
+
+	float: left;
+}
+
+body{
+/*	background-image: url( 'images/body.jpg');
+	background-size: 100%;
+	opacity: 0.1;*/
+
+}
+
+article{
+
+	/*z-index: 8;*/
+
+	margin-top: 10px;
+	position: relative;
+	margin-left: 10%;
+
+
+}
+iframe{
+
+	scroll-behavior: auto;
+
+	margin-top: 20px;
+	margin-left: 100px;
+
+	height: 1500px;
+	width: 1250px;
+
+	border: 0px solid red;
+
+}
+
+#main{
+
+
+	position: relative;
+	width:895px;
+	height:1020px;
+	border:1px solid;
+	border-radius:5px;
+
+	font-size: 30px;
+	/*overflow: hidden;*/
+}
+
+#div_main{
+
+	height: 1020px;
+	position: relative;
+	/*overflow: auto;*/
+
+	
+}
+
+
+#main::after{
+
+	width: 890px;
+	height: 1020px;
+
+	z-index: -1;
+
+/*	background-image: url('images/body.jpg');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-origin:content-box;*/
+	position: absolute;
+	top:0;
+	left:0;
+	content:"";
+	background-image: url('../images/body.jpg') ;
+
+	background-size: cover;
+
+	background-repeat:no-repeat;
+	background-position:center;
+	/*background-origin:;*/ 
+	/* 검색하다 멈춤 */
+	background-attachment: fixed;
+
+	 
+	opacity: 0.3!important; 
+	filter:alpha(opacity=30);
+
+	display: block;
+	overflow: visible;
+	
+}
+
+#map01{
+	display: block;
+	margin-left: 50px;
+
+}
+
+
+#zum01{
+	border: 1px solid red;
+	position: absolute;
+	left: 120px;
+	top: 170px; /* 기존 좌표에 + 50 px 해라 */
+
+	width: 75px;
+	height: 70px;
+	/*overflow: hidden;*/
+
+}
+/* 
+100 , 135  */
+#zum01:hover{
+
+	background-image: url("../images/map/map01.png");
+	background-position:-100px -135px;
+
+    cursor:pointer;
+
+    transform:scale(1.1); /* 마우스 오버시 이미지 크기를 1.1 배만큼 확대시킨다. */
+    -o-transform:scale(1.1); 
+    -moz-transform:scale(1.1);
+
+    -webkit-transform:scale(1.1);
+
+
+    transition: transform .35s;  
+    -o-transition: transform .35s;
+    -moz-transition: transform .35s;
+    -webkit-transition: transform .35s;
+
+}
+
+#zum_sub01{
+
+	background-color: white;
+	position: absolute;
+	text-align: center;
+	font-size: 14px;
+	width: auto;
+	height: auto;
+	margin: 15px;
+	padding:5px;
+	display: none;
+
+}
+
+#zum_sub02{
+
+	background-color: rgba(255,255,255,0.6);
+	text-align: center;
+	font-size: 14px;
+	width: 772px;
+	height: auto;
+	margin: 15px;
+	margin-left: 50px;
+	padding: 15px;
+
+}
+
+#zum02{
+	/* 430 , 115 세베르니 */
+	border: 1px solid red;
+	position: absolute;
+	left: 385px;
+	top: 155px; /* 기존 좌표에 + 50 px 해라 */
+
+	width: 75px;
+	height: 70px;
+	
+}
+
+#zum02:hover{
+
+	background-image: url("../images/map/map01.png");
+	background-position:-430px -112px;
+
+    cursor:pointer;
+
+    transform:scale(1.1); /* 마우스 오버시 이미지 크기를 1.1 배만큼 확대시킨다. */
+    -o-transform:scale(1.1); 
+    -moz-transform:scale(1.1);
+
+    -webkit-transform:scale(1.1);
+
+
+    transition: transform .35s;  
+    -o-transition: transform .35s;
+    -moz-transition: transform .35s;
+    -webkit-transition: transform .35s;
+
+}
+
+#zum03{
+
+
+	/* 480 , 380 스쿨 */
+
+	border: 1px solid red;
+	position: absolute;
+	left: 425px;
+	top: 340px; /* 기존 좌표에 + 50 px 해라 */
+
+	width: 75px;
+	height: 70px;
+	/*overflow: hidden;*/
+
+}
+
+#zum03:hover{
+
+	background-image: url("../images/map/map01.png");
+	background-position:-480px -370px;
+
+    cursor:pointer;
+
+    transform:scale(1.1); /* 마우스 오버시 이미지 크기를 1.1 배만큼 확대시킨다. */
+    -o-transform:scale(1.1); 
+    -moz-transform:scale(1.1);
+
+    -webkit-transform:scale(1.1);
+
+
+    transition: transform .35s;  
+    -o-transition: transform .35s;
+    -moz-transition: transform .35s;
+    -webkit-transition: transform .35s;
+
+}
+
+/*#zom04{}
+
+#zom05{}
+
+#zom06{}
+
+#zom07{}
+
+#zom08{}
+
+#zom09{}
+
+#zom10{}
+
+#zom11{}
+
+#zom12{}
+
+#zom13{}
+
+#zom14{}
+
+#zom15{}*/
+
+
+#vehicles{
+
+	margin-top: 15px;
+
+}
+
+#vehicles img{
+
+	position: relative;
+	margin: 15px;
+	text-align: center;
+
+	margin-left: 25%;
+
+}
+
+#vehicles p{
+
+	margin-bottom: 20px;
+
+	text-align: center;
+	font-size: 20px;
+
+}
+
+.w3-modal-content{
+
+	
+	
+	position:relative; 
+
+	top: 25%;
+
+	width: auto;
+
+	height: auto;
+
+
+
+}
+
+.w3-modal-content p{
+
+
+}
+
+#id1 , #id2 , #id3{
+
+	margin:0px;
+
+}
+
+footer{
+
+
+float: left;
+
+}

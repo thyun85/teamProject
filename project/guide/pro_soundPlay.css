@@ -1,0 +1,29 @@
+a{
+	font-size: 15px;
+	font-family: Oswald;
+}
+#mySidebar{background-color: black;}
+
+body{background-color: #f3f3f3;}
+
+p{color: white;}
+
+h3{color: white;}
+
+img{width: 70%;}
+
+iframe{width: 70%; height: 100%;}
+
+/*브라우저가 줄어들면서 nav가 사라지면 margin-left를 0으로바꿔야함*/
+.testClass{
+	position: relative;
+	width: 100%;
+	z-index: 1;
+	padding: 10px;
+}
+
+#testH2{
+	font-style: italic;
+	font-weight: bold;
+	color: darkgray;
+}
