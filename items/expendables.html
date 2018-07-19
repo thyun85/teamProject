@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<div id="expendables">
+		<div id="slide_Boost" class="w3-content w3-display-container">
+			<div id="img_Boost">
+				<div id="drink" class="blank mySlides"><img src="../images/drink.png"></div>
+				<div id="medicine" class="blank mySlides"><img src="../images/medicine.png"></div>
+				<div id="adrenarin" class="blank mySlides"><img src="../images/adrenarin.png"></div>
+				<div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle"
+				 style="width:100%">
+   				<div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    			<div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div></div>
+			</div>
+			<!-- 부스트 -->
+			<!-- 드링크 4초 40% -->
+			<!-- 진통제 6초 60% -->
+			<!-- 주사기 8초 100% -->
+			<!-- 주사기 게이지. 20% 40% 30% 10% -->
+
+
+		</div>
+
+		<!-- 체력 -->
+	</div>
+
+	<script>
+		var slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusDivs(n) {
+			showDivs(slideIndex += n);
+		}
+
+		function currentDiv(n) {
+			showDivs(slideIndex = n);
+		}
+
+		function showDivs(n) {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("demo");
+			if (n > x.length) {slideIndex = 1}    
+			if (n < 1) {slideIndex = x.length}
+			for (i = 0; i < x.length; i++) {
+			   x[i].style.display = "none";  
+			}
+			for (i = 0; i < dots.length; i++) {
+			   dots[i].className = dots[i].className.replace(" w3-white", "");
+			}
+			x[slideIndex-1].style.display = "block";  
+			dots[slideIndex-1].className += " w3-white";
+		}
+	</script>
+
+</body>
+</html>
