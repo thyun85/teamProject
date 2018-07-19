@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" type="text/css" href="./items/items.css">
+	<script type="text/javascript" src="./items/items.js"></script>
+
+		<!-- 2. CDN(Contents Delivery Network)방식 -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+ 			integrity="sha256-FgpCdb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  			crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="w3-container" id="div_Items">
+		<!-- <img src="images/background.png" id="img_Background"> -->
+		<div id="equibs" >
+			<img src="images/equib.png" id="equibsImg">
+			<div onclick="document.getElementById('modalHelmet').style.display='block', clickHelmet1()" class="area_Equib">
+			</div>
+			<div onclick="" class="area_Equib">
+			</div>
+			<div onclick="" class="area_Equib">		
+			</div>
+		</div>
+	</div>
+	
+
+	<div class="w3-modal" id="modalHelmet">
+		<div class="w3-modal-content w3-white w3-card-4 w3-padding-large">
+			<span class="w3-text-black w3-xxlarge w3-hover-text-grey w3-container w3-display-topright"		onclick="closeModal()" style="cursor:pointer">&times;</span>
+			<div class="w3-content">
+				<div id="helmetImg">
+					<img id="img_Helmet1" src="images/4010.png" class="w3-hover-shadow w3-border" onclick="clickHelmet1()">
+					<img id="img_Helmet2" src="images/4012.png" class="w3-hover-shadow w3-border" onclick="clickHelmet2()">
+					<img id="img_Helmet3" src="images/4013.png" class="w3-hover-shadow w3-border" onclick="clickHelmet3()">
+				</div>
+
+				<div id="div_gauge">
+					<h3 style="margin-top: 30px">내구도</h3>
+					 	
+					<div class="gauge w3-card-2 w3-right-gray" >
+						<div class="w3-container w3-green w3-center" id="durability" style="width: 32%; height: 100%">
+					 		<strong>0</strong></div>
+					 	<p style="text-align: right;"><strong>최대 내구도 : 250</strong></p>
+					</div>
+				 	<hr>
+					<h3>피해감소</h3>
+					<div class="gauge w3-card-2 w3-right-gray" >
+						<div class="w3-container w3-red w3-center" id="damage" style="width: 30%; height: 100%">0</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+		<div class="w3-modal w3-black"></div>
+		<div class="w3-modal w3-black"></div>
+
+</body>
+</html>
